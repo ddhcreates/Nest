@@ -5,8 +5,13 @@ import { ChevronDown, Heart, Shield, Users, BookOpen, MessageCircle, MapPin, Mai
 
 const NestWebsite = () => {
   const [activeService, setActiveService] = useState(0);
-  const [isVisible, setIsVisible] = useState({});
-
+  const [isVisible, setIsVisible] = useState({
+    hero: false,
+    services: false,
+    about: false,
+    testimonials: false,
+    contact: false
+  });
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
