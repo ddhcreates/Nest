@@ -9,6 +9,7 @@ const NestWebsite = () => {
     hero: false,
     services: false,
     about: false,
+    guides: false,
     testimonials: false,
     contact: false
   });
