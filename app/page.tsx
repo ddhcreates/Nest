@@ -82,12 +82,13 @@ const NestWebsite = () => {
                 <p className="text-sm text-gray-600">Where Tech Feels Safe</p>
               </div>
             </div>
-            <nav className="hidden md:flex space-x-8">
-              <a href="#services" className="text-gray-700 hover:text-orange-600 transition-colors">Services</a>
-              <a href="#guides" className="text-gray-700 hover:text-orange-600 transition-colors">Guides</a>
-              <a href="#about" className="text-gray-700 hover:text-orange-600 transition-colors">About</a>
-              <a href="#contact" className="text-gray-700 hover:text-orange-600 transition-colors">Contact</a>
-            </nav>
+		<nav className="hidden md:flex space-x-8">
+		  <a href="#services" className="text-gray-700 hover:text-orange-600 transition-colors">Services</a>
+		  <a href="#guides" className="text-gray-700 hover:text-orange-600 transition-colors">Guides</a>
+		  <a href="/guides-admin" className="text-gray-700 hover:text-orange-600 transition-colors">Admin</a>
+		  <a href="#about" className="text-gray-700 hover:text-orange-600 transition-colors">About</a>
+		  <a href="#contact" className="text-gray-700 hover:text-orange-600 transition-colors">Contact</a>
+		</nav>
           </div>
         </div>
       </header>
