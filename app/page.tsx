@@ -77,7 +77,7 @@ const NestWebsite = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
               <div className="w-10 h-10 bg-gradient-to-br from-orange-400 to-red-400 rounded-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg">🪺</span>
+		<img src="/nest-logo.png" alt="Nest Logo" className="w-6 h-6" />
               </div>
               <div>
                 <h1 className="text-2xl font-bold text-gray-800">Nest</h1>
