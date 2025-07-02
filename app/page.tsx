@@ -319,7 +319,7 @@ const NestWebsite = () => {
             Empowering schools across India with gentle, human-friendly technology guidance.
           </p>
           <p className="text-sm text-gray-500">
-            © 2025 Nest Tech Enablement. All rights reserved.
+            © 2025 Nest EduTech. All rights reserved.
           </p>
         </div>
       </footer>
